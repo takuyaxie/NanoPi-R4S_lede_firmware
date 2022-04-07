@@ -79,6 +79,10 @@ jobs:
         git clone --depth=1 https://github.com/linkease/istore.git
         mv istore/luci/luci-app-store/ openwrt/package/lean/
         
+        # 添加filebrowser (文件浏览器）
+        git clone --depth=1 https://github.com/takuyaxie/luci-app-filebrowser.git
+        mv istore/luci/luci-app-store/ openwrt/package/lean/
+    
         # 添加 openclash
         # echo "=== add openclash ==="
         # git clone --depth=1 https://github.com/vernesong/OpenClash.git
